@@ -1,0 +1,145 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+body {
+
+  margin: 0 auto;
+
+  font-family:arial; 
+  font-size:15px;
+
+}
+table {
+  max-width: 600px;
+  margin: 0 auto;
+}
+table,
+tr,
+td {
+  border:0px;
+  /* border:solid 2px blueviolet; */
+  border-spacing: 0;
+  border-collapse: 0;
+}
+
+.header {
+  height: 60px;
+  background-color: #ffffff;
+}
+.info-top {
+  padding: 20px;
+}
+.info-perfil {
+  padding: 20px;
+}
+h1 {
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  color: #1345b1;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 35px;
+}
+h2{
+  color:#1345b1;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+}
+.info {
+  padding: 0 0 10px 0;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  font-size: 15px;
+  line-height: 20px;
+  color: #e7728b;
+  font-weight: bold;
+}
+.info-cupon h1,
+.info-cupon p,
+.info-cupon a {
+  width: 50%;
+}
+
+.info-envio h1,
+.info-envio p,
+.info-envio a {
+  width: 50%;
+}
+
+
+.header td {
+  padding: 0 20px;
+}
+.top-menu {
+  color: #777777;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  text-decoration: none;
+  font-size: 10px;
+  line-height: 13px;
+  font-weight: normal;
+}
+
+
+.menu span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.top-menu,
+.menu {
+  text-align: right;
+}
+
+.btn-perfil {
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  font-size: 15px;
+  font-weight: normal;
+
+
+  color: #e7728b;
+  border: 1px solid #e7728b;
+  padding: 10px;
+  color: #e7728b;
+  text-decoration: none;
+  background-color: rgb(212, 212, 212);
+}
+
+.condiciones{
+  background-color: #ffffff;
+  font-family: Helvetica, arial, sans-serif, "Market Sans";
+  font-size: 13px;
+  text-align: justify;
+  padding: 20px;
+}
+
+ul li{
+  margin-bottom: 15px;
+  
+}
+
+
+.btn {
+  border-width: 2px;
+  font-weight: 400;
+  font-size: 0.8571em;
+  line-height: 1.35em;
+  margin: 5px 1px;
+  border: none;
+  border-radius: 0.1875rem;
+  padding: 11px 22px;
+  cursor: pointer;
+  background-color: #888;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container-social {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding:25px 0 25px  0
+}
+
+.foto-perfil {
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+}
